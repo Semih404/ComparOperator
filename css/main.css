@@ -1,0 +1,179 @@
+.secondaire {
+    padding: 10rem 9%;
+}
+
+.box-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
+    border-radius: .5rem;
+    margin-top: 5rem;
+}
+
+#image {
+    width: 70rem;
+    height: 35rem;
+    border: 1rem solid #fff;
+}
+
+#icon {
+    font-size: 3rem;
+    color: #333;
+    position: absolute;
+    text-align: center;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.right {
+    right: 13rem;
+}
+
+.left {
+    left: 13rem;
+}
+
+.dots {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 27%;
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 1rem;
+    border-radius: 5rem;
+    
+}
+
+.dots span {
+    background-image: radial-gradient(#f0f4f8 , #f0f4f8 , #eaedf1 , #dadcde , #d9dde2 , #d9dde2 , #d2d6db);
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.dots span.active {
+    background-image: radial-gradient(#748eb7 , #748eb7 , #7590ba , #5d7495 , #5d7495 , #526784 , #536987 , #4c5f7b , #374b68) ;       
+}
+
+.container-desc {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 0 10rem;
+}
+
+.container-desc .box .content .stars i {
+    font-size: 1.7rem;
+    color: var(--blue);
+}
+
+.container-desc  .box .content .prix {
+    font-size: 2rem;
+    color: #fff;
+    background: #ff6700;
+    border-radius: 1.5rem;
+    margin-top: 2rem;
+    border: .1rem solid #333;
+}
+
+.container-desc  .box .content .prix span {
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: line-through;
+}
+
+.container-desc .description h3 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.container-desc .description p {
+    font-size: 1.7rem;
+    color: #666;
+    padding: 1rem 0;
+    text-transform: none;
+}
+
+.container-desc .desc-icon {
+    flex: 1 1 20rem;
+    padding-bottom: 5rem;
+    text-align: center;
+}
+
+.container-desc .desc-icon h3 {
+    font-size: 1.7rem;
+    color: #333;
+}
+
+.container-desc .desc-icon span {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.container-desc .desc-icon span i {
+    font-size: 1.7rem;
+    color: var(--blue);
+    padding: 0 .5rem;
+}
+
+.commentaire {
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    padding-left: 10rem;
+}
+
+.commentaire form .name, .message {
+    background: #efefef;
+    color: #333;
+    font-size: 1.5rem;
+    width: 45rem;
+    border-radius: 2rem;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    margin-bottom: 1rem;
+}
+
+.commentaire form .btn-1{
+    background: #666;
+    color: #fff;
+    margin-bottom: 5rem;
+    display: block;
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 1rem;
+    width: 20rem;
+    border-radius: 2rem;
+    margin: 0 auto;
+    margin-top: .5rem;
+    opacity: 0.7;
+    transition: .3s all ease;
+}
+
+.commentaire form .btn-1:hover {
+    opacity: 1;
+}
+
+.content-com {
+    
+    background: #efefef;
+    color: #333;
+    margin: 1rem 0 5rem 10rem;
+    padding: 1rem;
+    width: 45rem;
+    border-radius: 2rem;
+}
+
+.content-com p {
+    margin-bottom: 1.5rem;
+    width: 45rem;
+}
+
